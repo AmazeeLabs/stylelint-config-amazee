@@ -51,6 +51,21 @@ For example, to change the `at-rule-no-unknown` rule to use its `ignoreAtRules` 
 }
 ```
 
+### Plugins
+Plugins are rules or sets of rules built by the community that support methodologies, toolsets, non-standard CSS features, or very specific use cases. See [documentation](https://stylelint.io/user-guide/configuration/#plugins) for more information.
+
+- Disallow features that are unsupported by the browsers that you are targeting:
+  - [`stylelint-no-unsupported-browser-features`](https://www.npmjs.com/package/stylelint-no-unsupported-browser-features)
+- A collection of order related linting rules for stylelint:
+  - [`stylelint-order`](https://www.npmjs.com/package/stylelint-order)
+- [All stylelint plugins](https://www.npmjs.com/search?q=keywords:stylelint-plugin)
+
+## Updates
+* Make your changes.
+* Update [Changelog](CHANGELOG.md).
+* Commit your changes.
+* Update [package](https://docs.npmjs.com/getting-started/publishing-npm-packages#how-to-update-a-package).
+
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)

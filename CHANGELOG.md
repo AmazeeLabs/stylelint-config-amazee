@@ -1,3 +1,7 @@
+# 1.0.2
+
+-   Extend README.
+
 # 1.0.1
 
 -   Accept `@mixin-content`, `@define-mixin`.
