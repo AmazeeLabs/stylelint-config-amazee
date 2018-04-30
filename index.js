@@ -11,7 +11,11 @@ module.exports = {
     } ],
     "at-rule-name-space-after": "always-single-line",
     "at-rule-no-unknown": [ true, {
-      ignoreAtRules: "mixin"
+      ignoreAtRules: [
+        "mixin",
+        "mixin-content",
+        "define-mixin"
+      ]
     } ],
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",

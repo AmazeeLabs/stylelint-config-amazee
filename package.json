@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-amazee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Amazee Labs' config for stylelint",
   "keywords": [
     "stylelint",
