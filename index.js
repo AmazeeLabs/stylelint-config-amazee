@@ -54,9 +54,7 @@ module.exports = {
         "inside-single-line-block"
       ]
     } ],
-    "declaration-no-important": [ true, {
-        severity: "warning"
-    } ],
+    "declaration-no-important": true,
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
     "function-calc-no-unspaced-operator": true,
@@ -71,9 +69,7 @@ module.exports = {
     "indentation": 2,
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
-    "max-nesting-depth": [ 3, {
-        severity: "warning"
-    } ],
+    "max-nesting-depth": 3,
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-case": "lower",
@@ -114,9 +110,7 @@ module.exports = {
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-pseudo-element-case": "lower",
-    "selector-pseudo-element-colon-notation": [ "double", {
-      severity: "warning"
-    } ],
+    "selector-pseudo-element-colon-notation": "double",
     "selector-type-case": "lower",
     "string-no-newline": true,
     "unit-case": "lower",
