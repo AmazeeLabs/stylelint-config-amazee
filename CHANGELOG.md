@@ -1,3 +1,7 @@
+# 1.0.3
+
+-   Change warnings into proper errors. [#1](https://github.com/AmazeeLabs/stylelint-config-amazee/pull/1)
+
 # 1.0.2
 
 -   Extend README.
