@@ -8,6 +8,9 @@ To see the rules that this config uses, please read the [config itself](./index.
 
 ```bash
 npm install stylelint-config-amazee --save-dev
+#OR
+yarn add stylelint-config-amazee --dev
+
 ```
 
 ## Usage
