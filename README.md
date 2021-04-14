@@ -101,8 +101,8 @@ Plugins are rules or sets of rules built by the community that support methodolo
               "each"
             ]
           }
-      ]
-    }
+        ]
+      }
   },
 ```
 
@@ -110,7 +110,7 @@ Plugins are rules or sets of rules built by the community that support methodolo
     https://www.jetbrains.com/help/phpstorm/using-stylelint-code-quality-tool.html
 
 * Other IDEs: https://stylelint.io/user-guide/integrations/editor
-    
+
 * General info: https://stylelint.io/
 
 ## Updates
