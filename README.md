@@ -70,7 +70,14 @@ Plugins are rules or sets of rules built by the community that support methodolo
     Description: Modern CSS/SCSS/Less linter for vscode, *support auto fix on save*.
     Publisher: Hex
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus
-* Read the Extension's help text to show you how to update your user settings. E.g. Setting which code languages you'd like Stylelint to work with and whether to auto format on save etc.
+** Read the Extension's help text to show you how to update your user settings. E.g. Setting which code languages you'd like Stylelint to work with and whether to auto format on save etc.
+
+* PHPSTORM
+    https://www.jetbrains.com/help/phpstorm/using-stylelint-code-quality-tool.html
+
+* Other IDEs: https://stylelint.io/user-guide/integrations/editor
+    
+* General info: https://stylelint.io/
 
 ## Updates
 * Make your changes.
