@@ -15,7 +15,7 @@ yarn add stylelint-config-amazee --dev
 
 ## Usage
 
-If you've installed `stylelint-config-amazee` locally within your project, just set your `stylelint` config to:
+If you've installed `stylelint-config-amazee` locally within your project, just set your project root `.stylelint` file config to:
 
 ```json
 {
@@ -62,6 +62,33 @@ Plugins are rules or sets of rules built by the community that support methodolo
 - A collection of order related linting rules for stylelint:
   - [`stylelint-order`](https://www.npmjs.com/package/stylelint-order)
 - [All stylelint plugins](https://www.npmjs.com/search?q=keywords:stylelint-plugin)
+
+## IDE Extensions
+* VSCODE
+    Name: stylelint-plus
+    Id: hex-ci.stylelint-plus
+    Description: Modern CSS/SCSS/Less linter for vscode, *support auto fix on save*.
+    Publisher: Hex
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus
+** Read the Extension's help text to show you how to update your user settings. E.g. Setting which code languages you'd like Stylelint to work with and whether to auto format on save etc.
+** My VsCode settings:
+
+    "stylelint.enable": true,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "[scss]": {
+      "editor.defaultFormatter": "hex-ci.stylelint-plus",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": false
+    },
+
+* PHPSTORM
+    https://www.jetbrains.com/help/phpstorm/using-stylelint-code-quality-tool.html
+
+* Other IDEs: https://stylelint.io/user-guide/integrations/editor
+    
+* General info: https://stylelint.io/
 
 ## Updates
 * Make your changes.
