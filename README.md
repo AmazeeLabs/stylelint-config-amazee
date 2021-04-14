@@ -71,8 +71,9 @@ Plugins are rules or sets of rules built by the community that support methodolo
     Publisher: Hex
     VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus
 ** Read the Extension's help text to show you how to update your user settings. E.g. Setting which code languages you'd like Stylelint to work with and whether to auto format on save etc.
-** My VsCode settings:
+** My VsCode settings - with Global Stylelint:
 
+```json
     "stylelint.enable": true,
     "css.validate": false,
     "less.validate": false,
@@ -82,6 +83,28 @@ Plugins are rules or sets of rules built by the community that support methodolo
       "editor.formatOnSave": true,
       "editor.formatOnPaste": false
     },
+    "stylelint.configOverrides": {
+      "extends": "/Users/username/git/stylelint-config-amazee/index.js",
+      "rules": {
+        "at-rule-no-unknown": [
+          true,
+          {
+            "ignoreAtRules": [
+              "extend",
+              "ignores",
+              "include",
+              "media",
+              "if",
+              "else",
+              "mixin",
+              "for",
+              "each"
+            ]
+          }
+      ]
+    }
+  },
+```
 
 * PHPSTORM
     https://www.jetbrains.com/help/phpstorm/using-stylelint-code-quality-tool.html
